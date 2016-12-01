@@ -11,7 +11,7 @@ redis = eventlet.import_patched("redis")
 gpool = eventlet.GreenPool(10000)
 
 def get_w2v():
-    file = "vector.txt"
+    file = "./data/vector.txt"
     lineIdx = 0
     w2v = {}
     t = 0
